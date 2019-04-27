@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+  min-width: 1900px;
+  max-width: 100%;
+}
+
+		.box{
+		width: 100%;
+		height: 900px;
+		background-image:url(img/2.png);
+		background-repeat: no-repeat;
+		background-size:cover;
+	 	min-width: 500px;
+		border: none;
+		}
+		.dh{
+			width: 100%;
+			height: 90px;
+			/*background: yellow;*/
+			border-bottom: 3px solid black;
+			margin: 5px auto;
+			/*position: fixed;*/
+		}
+		.dh img{
+			width: 116px;
+			height: 82px;
+			/*float:;*/
+			margin-left: 40px;
+
+		}
+		.dh a{
+			float: right;
+			line-height: 90px;
+			margin:0 30px;
+			text-decoration: none;
+			color: black;
+			display: block;
+		}
+		.dl{
+			width: 328px;
+			height: 390px;
+			background-color:red; 
+			background:rgba(255,255,255,0.5);
+			margin-top:150px;
+			margin-right:350px;
+			float:right; 
+		}
+		.bt{
+			list-style: none;
+			width: 280px;
+			height: 40px;
+			/*background-color: yellow;*/
+			margin:0 auto;
+			margin-top: 50px;
+			border-top: 8px solid black;
+			border-bottom: 6px solid gray;
+			padding-top: 10px;
+		}
+		.bt li{
+			float: left;
+			/*outline: 1px solid red;*/
+			
+			width: 140px;height: 30px;
+			text-align: center;
+			margin-top: 10px;		
+			line-height: 10px;
+		}
+		.bt li a{
+			text-decoration: none;font-size: 20px;
+			font-family: "黑体";color:gray;
+		}
+		.bt a:hover{
+			display: inline;
+			color: blue;border-bottom: 6px solid blue; 
+			padding-bottom: 15px;
+			line-height: 10px;
+
+		}
+		.bt li:hover{
+	border-bottom: 6px solid blue;
+		}
+		.ipt{
+			width: 280px;
+			height: 270px;
+			margin: 5px auto;
+			/*outline: 1px solid red;*/
+		}
+		.ipt form input[type="text"],input[type="password"]{
+			width: 270px;
+			height: 30px;
+			padding-left: 8px;
+			margin-top: 30px;
+		}
+		.ipt form input[type="password"]{
+			margin-bottom: 10px;
+		}
+		.ipt form span{
+			color: gray;
+			font-size: 14px;
+			margin-left: 5px;
+		}
+		.ipt form a{
+			font-size: 15px;
+			float: right;
+		}
+		.ipt form input[type="submit"]{
+			width: 280px;
+			height: 30px;
+			background: #3283e7;
+			color: white;
+			margin-top: 20px;
+			border: none;
+		}
+		.cl{
+			width: 164px;
+			height: 390px;
+			background:rgba(255,255,240,0.3);
+			margin:-394px 328px;
+			float:right;
+		}
+		.cl li{
+			list-style: none;
+			margin-top: 20px;
+			font-size: 10px;
+			margin: 16% 20%;
+
+
+		}
+		.nr{margin-top:90px;}
+		.nr li:nth-child(1){
+			font-size: 14px;
+		}
+		.db{
+			width: 100%;
+			height: 20px;
+			/*background-color: red;*/
+			border-bottom: 6px solid black;
+			padding-bottom: 6px;
+			margin-top: 750px;
+
+			}			
+		.wz{
+			width: 960px;
+			height: 20px;
+			min-width: 1600px;
+			list-style: none;
+			/*background-color: red;*/
+		}
+		.wz   li{
+			float: left;
+			margin-left:336px;
+
+		}
+		.wz  li a{
+			text-decoration: none;
+			color: black;
+
+		}
+		.wz  li a:hover{
+			color: blue;
+
+		}
+	</style>
+</head>
+<body >
+	<div class="box">
+		<div class="dh">
+			<img src="img/logo.png" alt="">
+			<b><a href="zcym.html">没有账号立即<span style="color: blue;">注册</span>>></a></b>
+		</div>
+		<div class="dl">
+			<ul class="bt">
+				<li><a href="">微信登录</a></li>
+				<li><a href="">账号登录</a>	</li>
+		   </ul>
+		   <div class="ipt">
+		   	<form action="">
+		   		<input type="text" name="" placeholder="手机号/邮箱">
+		   		<input type="password" name="" placeholder="登录密码">
+		   		<input type="checkbox"><span>自动登录</span>
+		   		<a href="">忘记密码>></a>
+		   		<input type="submit" value="登录">
+		   	</form>
+		   </div>
+		   <ul class="cl">
+			<div class="nr">
+			<li><h3>登陆后您可以</h3></li>
+			<li>更便捷的生成简历</li>
+			<li>更便捷操作</li>
+			<li>更便捷操作</li>
+			<li>更便捷操作</li>
+		</div>
+		</ul>
+	</div>
+	<div class="db">
+	<ul class="wz">
+		<li><a href="">关于我们</a></li>
+		<li><a href="">意见反馈</a></li>
+		<li><a href="">加入我们</a></li>
+		<li><a href="">企业合作</a></li>
+	</ul>
+	</div></div>
+</body>
+</html>

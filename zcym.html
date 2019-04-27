@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+    body{
+  min-width: 1900px;
+  max-width: 100%;
+}
+
+		.box{
+		width: 100%;
+		height: 920px;
+		/* background-image:url(img/2.png); */
+		background-repeat: no-repeat;
+		background-size:cover;
+	 	min-width: 900px;
+		border: none;
+        /* border-bottom: 6px solid black; */
+		}
+		.dh{
+			width: 100%;
+			height: 90px;
+			/*background: yellow;*/
+			border-bottom: 3px solid black;
+			margin: 5px auto;
+			/*position: fixed;*/
+		}
+		.dh img{
+			width: 116px;
+			height: 82px;
+			/*float:;*/
+			margin-left: 40px;
+
+		}
+		.db{
+			width: 100%;
+			height: 20px;
+			/*background-color: red;*/
+			border-bottom: 6px solid black;
+			padding-bottom: 6px;
+			margin-top: 750px;
+
+			}			
+		.wz{
+			width: 960px;
+			height: 20px;
+			min-width: 1600px;
+			list-style: none;
+			/*background-color: red;*/
+		}
+		.wz   li{
+			float: left;
+			margin-left:336px;
+
+		}
+	.box a{
+			text-decoration: none;
+			color: #000;
+			float: right;
+		}
+		.ym{
+			width: 1000px;
+			height: 500px;
+			float: left;
+			/* outline: 1px solid rebeccapurple; */
+			margin: 100px 450px;
+		}
+		.zbd{
+			width: 400px;
+			height: 400px;
+			/* background: blueviolet; */
+			float: left;
+			margin-left: 80px;
+			margin-top: 20px;
+		}
+		.ybd{
+			width: 500px;
+			height: 400px;
+			/* background: rgb(43, 76, 226); */
+			float: right;
+			/* margin-right: 80px; */
+			margin-top: 20px;
+		}
+		.zbd  input[type="text"],input[type="password"]{
+			/* float: left; */
+			border-radius: 2px;
+			border:1px solid gray;
+			margin-top: 30px;
+			/* height: 20px; */
+		}
+		.zbd input:nth-child(1) {
+			margin-top: 80px;
+		}
+		.zbd  input[type="button"]{
+			margin-left: 20px;
+			border:1px solid black;
+			width: 80px;
+			height: 18px;
+			font-size: 1px;
+			color: #000;
+			background: white;
+			text-align: center;
+			border-radius: 2px;
+		}
+		.ts{
+			width: 80px;
+			height: 400px;
+			float: left;
+		}
+		.ts span{
+			display: block;
+			margin-top:28px;;
+		}
+		.ybd input[type="text"],input[type="radio"],input[type="button"]{
+			margin-top: 30px;
+			margin-left: 10px;
+		}
+		.ybd  input[type="button"]{
+			margin-left: 5px;
+			width: 80px;
+			height: 18px;
+			font-size: 1px;
+			color: #000;
+			background: white;
+			border:1px solid black;
+			border-radius: 2px;
+		}
+		.ybd  input[type="radio"]{
+			border:1px solid black;
+			background: white;
+		}
+		.ty{
+			width: 180px;
+			height: 400px;
+			float: left;
+		}
+		.ty span{
+			display: block;
+			margin-top:28px;;
+		}
+		.ym input[type="submit"]{
+			margin: 0px 410px;
+			width: 150px;
+			height: 25px;
+			background: rgb(35, 165, 240);
+			color:white;
+			border: none;
+			border-radius: 2px;
+		}
+		.wz  li a{
+			text-decoration: none;
+			color: black;
+
+		}
+		.wz  li a:hover{
+			color: blue;
+
+		}
+    </style>
+</head>
+<body>
+    <div class="box">
+		<div class="dh">
+			<img src="img/logo.png" alt="">
+			<!-- <b><a href="">没有账号立即<span style="color: blue;">注册</span>>></a></b> -->
+		</div>
+		   <b><a href="index.html">已有账号立即<span style="color:blue">登录</span>> ></a></b>       
+		   <div class="ym">
+			   <form action="">
+				   <div class="zbd">
+					<div class="ts">
+					<span>手机号</span>
+					<span>验证码</span>
+					<span>&nbsp&nbsp&nbsp邮箱</span>
+					<span>&nbsp&nbsp&nbsp密码</span>
+					<span>确认密码</span>
+				</div>
+					<input type="text">
+					<input type="button" value="获取验证码"><br>
+					<input type="text">&nbsp<span style="color:red;">√</span><br>
+					<input type="text">&nbsp<span style="color:green">×</span><br>
+					<input type="password"><br>
+					<input type="password"><br>
+				   </div>
+				   <div class="ybd">
+						<div class="ty">
+								<span>&nbsp&nbsp&nbsp学校性质</span>
+								<span>&nbsp&nbsp&nbsp学校名称</span>
+								<span>组织机构代码/工商证号</span>
+								<span>&nbsp&nbsp&nbsp联系人</span>
+								<span>&nbsp&nbsp&nbsp注册地址</span>
+							</div>
+					   <input type="radio" name="1" >民营
+					   <input type="radio" name="1" >国营<br>
+					   <input type="text"><br>
+					   <input type="text"><br>
+					   <input type="text">
+					   <input type="radio" name="2">先生
+					   <input type="radio" name="2">女士<br>
+					   <input type="button" value="河北省">
+					   <input type="button" value="邯郸市">
+					   <input type="button" value="邯山区">
+				   </div>
+				   <input type="submit" value="注册">
+			   </form>
+		   </div>               
+	<div class="db">
+		<div class="db">
+			<ul class="wz">
+				<li><a href="">关于我们</a></li>
+				<li><a href="">意见反馈</a></li>
+				<li><a href="">加入我们</a></li>
+				<li><a href="">企业合作</a></li>
+			</ul>
+	</div>
+	</div>
+</body>
+</html>
